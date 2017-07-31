@@ -1,0 +1,93 @@
+
+#mc-add-button {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+.mc-display-pic-in-list {
+    margin-right: 15px;
+}
+#mc-profile {
+    height: 60px;
+}
+
+#mc-screen {
+    background: #fff;
+    font-size: 10vw;
+    text-align: right;
+}
+
+#mc-keys {
+    align-items: center;
+    height: 100%;
+}
+
+.mc-key {
+
+}
+
+#mc-substract-button {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+#mc-key-table {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+.mc-screen-plus-minus {
+    position: absolute;
+    margin-top: 12px;
+    height: 24px;
+    width: 24px;
+    margin-left: 12px;
+}
+
+.mc-screen-button{
+    position: relative;
+    width: 30px;
+    height: 30px;
+
+}
+
+/*
+#mc-vertical {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    margin-left: -2px;
+    background: black;
+}
+*/
+
+#mc-vertical {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    margin-top: -2px;
+}
+
+#mc-horizontal {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    margin-top: -2px;
+}
